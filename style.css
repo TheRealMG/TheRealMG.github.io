@@ -42,7 +42,7 @@ a {
 	background-color: #2F2F2F;
 	color: white;
 	margin-top: -50px;
-	box-shadow: 0 2px 2px 1px #5F5F5F;
+	box-shadow: 0 2px 2px 1px #5F5F5F, 0 -2px 2px 1px #5F5F5F;
 	padding: 15px;
 }
 
