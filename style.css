@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+* {
+	box-sizing: border-box;
+}
+
+*:before, *:after {
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 14pt;
+	color:black;
+	background-color: white;
+	line-height: 0.95;
+	margin: 0;
+}
+
+a {
+	color: white;
+}
+
+.header {
+	background-image: url("images/HOA_Tavern.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 50vh;
+	position: relative;
+}
+
+.homebar {
+	position: sticky;
+	top: -1px;
+	height: 50px;
+	width: 100%;
+	background-color: #2F2F2F;
+	color: white;
+	margin-top: -50px;
+	box-shadow: 0 2px 2px 1px #5F5F5F;
+	padding: 15px;
+}
+
+.homebar a {
+	text-decoration: none;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.homebar-align {
+	width: 56vw;
+	margin:auto;
+	padding: auto;
+}
+
+.container {
+	position: relative;
+	display: block;
+	padding-bottom: 50px;
+	background-image: url("images/HOA_Logo.jpg");
+	background-attachment: fixed;
+	background-size: 25vw;
+}
+
+.content {
+	margin: 0 auto;
+	padding: 0;
+	width: 56vw;
+	background-color: rgba(225, 225, 225, 0.99);
+	padding-left: 1vw;
+	padding-right: 1vw;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	height: 50px;
+	width: 100%;
+	background-color: #2F2F2F;
+	color: white;
+	clear: both;
+	box-shadow: 0 -2px 2px 1px #5F5F5F;
+}
+
+.footer {
+	clear: both;
+}
+
+.copyright {
+	text-align: center;
+	margin: 5px;
+	padding: 5px;
+}
