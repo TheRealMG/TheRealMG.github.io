@@ -5,37 +5,19 @@ const item = ["Josef Fares comes in and cusses to look cool", "Out of date meme 
 
 
 function initAll() {
-  if (document.getElementById) {
-    newCard();
-  }
-  else{
-    alert("Your browser does not support this script.");
-  }
+	if (document.getElementById) {
+		newCard();
+	}
+	else{
+		alert("Your browser does not support this script.");
+	}
 }
 
 function newCard() {
-  for(var i=0; i<24; i++) {
-      setSquare(i);
+	for(var i=0; i<24; i++) {
+		setSquare(i);
     }
 }
-
-/*function setSquare(thisSquare){
-  var currentSquare = "square" + thisSquare;
-  var colPlace = new Array(0,1,2,3,4,0,1,2,3,4,0,1,3,4,0,1,2,3,4,0,1,2,3,4);
-  var colBasis = colPlace[thisSquare] * 15;
-  var newNum = colBasis + getNewNum() + 1;
-
-  do{
-    newNum = colBasis + getNewNum() + 1;
-  }while(usedNums[newNum]);
-  
-  usedNums[newNum] = true;
-  document.getElementById(currentSquare).innerHTML = newNum;
-}
-
-function getNewNum() {
-  return Math.floor(Math.random() * 15);
-}*/
 
 function getNewItem() {
 	return item[Math.floor(Math.random() * item.length)]
@@ -51,4 +33,13 @@ function setSquare(thisSquare) {
 	
 	usedItems[newItem] = true;
 	document.getElementById(currentSquare).innerHTML = newItem;
+}
+
+function ch() {
+	this.classList.toggle("checked");
+}
+
+var items = document.querySelectorAll('div.square');
+for (var x = items.length - 1; x >= 0; x--) {
+	items[x].onclick = ch;
 }

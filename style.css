@@ -23,8 +23,6 @@ body {
 	height: 621px;
 }
 
-
-
 .square {
 	display: flex;
 	height: 119px;
@@ -35,7 +33,7 @@ body {
 }
 
 .column-1 {
-	width: 121px;
+	width: 122px;
 	margin-right: 6px;
 	margin-bottom: 6px;
 }
@@ -61,4 +59,17 @@ body {
 .column-5 {
 	width: 121px;
 	margin-bottom: 6px;
+}
+
+.checked {
+	background-color: red;
+	color: white;
+}
+
+.row-2 .square {
+	height: 120px;
+}
+
+.row-3 .square {
+	margin-bottom: 7px;
 }
