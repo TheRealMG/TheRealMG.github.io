@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	background-color: #0F0F0F;
+}
+
+.bingo-background {
+	background-image: url("images/TGA_Bingo.png");
+	background-repeat: no-repeat;
+	width: 622px;
+	padding-top: 252px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 29px;
+}
+
+.table {
+	width: 622px;
+	height: 621px;
+}
+
+
+
+.square {
+	display: flex;
+	height: 119px;
+	float: left;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.column-1 {
+	width: 121px;
+	margin-right: 6px;
+	margin-bottom: 6px;
+}
+
+.column-2 {
+	width: 118px;
+	margin-right: 6px;
+	margin-bottom: 6px;
+}
+
+.column-3 {
+	width: 119px;
+	margin-right: 6px;
+	margin-bottom: 6px;
+}
+
+.column-4 {
+	width: 118px;
+	margin-right: 6px;
+	margin-bottom: 6px;
+}
+
+.column-5 {
+	width: 121px;
+	margin-bottom: 6px;
+}
