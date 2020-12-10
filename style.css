@@ -73,3 +73,13 @@ body {
 .row-3 .square {
 	margin-bottom: 7px;
 }
+
+h3 {
+	color: white;
+	text-align: center;
+}
+
+p {
+	color: white;
+	text-align: center;
+}
