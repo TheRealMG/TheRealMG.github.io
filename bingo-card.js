@@ -1,7 +1,7 @@
 // JavaScript Document
 window.onload = initAll;
 var usedItems = new Array(76);
-const item = ["Josef Fares comes in and cusses to look cool", "Out of date meme is used", "TLOU2 wins 2 or more awards", "Reggie has the best speech", "Technical issues", "AVAILABLE NOW", "More than 5 exclusive games", "World Premier is said more than 5 times", "Voice actor presents award in character's voice", "Starfield Teaser", "New Game Reveal", "Unsatisfying End Reveal", "Sponsor Mascot", "Rune Factory 5 Gameplay", "Something Fortnite Related", "Smash Bros character reveal", "Celeb comes out to promote the game they are in", "Elden Ring", "Someone forgets lines / fumbles", "BOTW2 gameplay / trailer", "Mobile game is shown", "GTA Online promo", "Metal Gear Solid Teaser", "Covid talk"];
+const item = ["Josef Fares comes in and cusses to look cool", "Out of date meme is used", "TLOU2 wins 2 or more awards", "Reggie has the best speech", "Technical issues", "AVAILABLE NOW", "More than 5 exclusive games", "World Premier is said more than 5 times", "Voice actor presents award in character's voice", "Starfield Teaser", "New Game Reveal", "Unsatisfying End Reveal", "Sponsor Mascot", "Rune Factory 5 Gameplay", "Something Fortnite Related", "Smash Bros character reveal", "Celeb comes out to promote the game they are in", "Elden Ring", "Someone forgets lines / fumbles", "BOTW2 gameplay / trailer", "Mobile game is shown", "GTA Online promo", "Metal Gear Solid Teaser", "Covid talk", "Streamer or Youtuber live feed"];
 
 
 function initAll() {
