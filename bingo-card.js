@@ -1,7 +1,7 @@
-// JavaScript Document
+ // JavaScript Document
 window.onload = initAll;
 var usedItems = new Array(76);
-const item = ["Josef Fares comes in and cusses to look cool", "Out of date meme is used", "TLOU2 wins 2 or more awards", "Reggie has the best speech", "Technical issues", "AVAILABLE NOW", "More than 5 exclusive games", "World Premier is said more than 5 times", "Voice actor presents award in character's voice", "Starfield Teaser", "New Game Reveal", "Unsatisfying End Reveal", "Sponsor Mascot", "Rune Factory 5 Gameplay", "Something Fortnite Related", "Smash Bros character reveal", "Celeb comes out to promote the game they are in", "Elden Ring", "Someone forgets lines / fumbles", "BOTW2 gameplay / trailer", "Mobile game is shown", "GTA Online promo", "Metal Gear Solid Teaser", "Covid talk", "Streamer or Youtuber live feed"];
+const item = ["Celebrity Appearance", "Fake/Bad Gameplay", "Fictional character makes an appearance", "\"World Premiere\" said more then 10 times", "In-engine footage", "Old game brought back with a seemingly bad gimmick ", "Popular series getting a mobile game", "Battle Royale", "BOTW 2, Bayonetta 3, or Metroid Prime 4", "Elden Ring", "Another GTA V update", "Game we know it's gonna be there should be the free space", "New Super Nintendo Switch Pro XL Deluxe annoucement", "Announcer apologizing to fans (i.e. lack of major updates)", "New DLC/Expansion for an existing game", "New IP announced early in development and is still 2+ years out", "Technical difficulties", "Ubisoft being Ubisoft", "A dev dropping a F bomb to sound cooler", "Actual Pog news", "Any Bethesda game being an Xbox exclusive", "AVAILABLE NOW", "More than 5 exclusive games", "Unsatisfying End Reveal", "Someone forgets lines / fumbles"];
 
 
 function initAll() {

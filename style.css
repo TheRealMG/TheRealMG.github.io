@@ -9,69 +9,65 @@ body {
 }
 
 .bingo-background {
-	background-image: url("images/TGA_Bingo.png");
+	/*background-image: url("images/TGA_Bingo.png");*/
+	background-image: url("images/E3-Bingo-Background.png");
 	background-repeat: no-repeat;
-	width: 622px;
+	width: 640px;
 	padding-top: 252px;
 	padding-left: 40px;
 	padding-right: 40px;
-	padding-bottom: 29px;
+	padding-bottom: 30px;
+	background-color: #000000;
 }
 
 .table {
-	width: 622px;
-	height: 621px;
+	width: 640px;
+	height: 640px;
 }
 
 .square {
 	display: flex;
-	height: 119px;
+	height: 120px;
 	float: left;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
+	background-color: #FFFFFF;
+	box-shadow: inset 0.15em 0.15em 0.2em 0 rgba(255,255,255,0.5), inset -0.15em -0.15em 0.2em 0 rgba(0,0,0,0.5);
 }
 
 .column-1 {
-	width: 122px;
-	margin-right: 6px;
-	margin-bottom: 6px;
+	width: 120px;
+	margin-right: 10px;
+	margin-bottom: 10px;
 }
 
 .column-2 {
-	width: 118px;
-	margin-right: 6px;
-	margin-bottom: 6px;
+	width: 120px;
+	margin-right: 10px;
+	margin-bottom: 10px;
 }
 
 .column-3 {
-	width: 119px;
-	margin-right: 6px;
-	margin-bottom: 6px;
+	width: 120px;
+	margin-right: 10px;
+	margin-bottom: 10px;
 }
 
 .column-4 {
-	width: 118px;
-	margin-right: 6px;
-	margin-bottom: 6px;
+	width: 120px;
+	margin-right: 10px;
+	margin-bottom: 10px;
 }
 
 .column-5 {
-	width: 121px;
-	margin-bottom: 6px;
+	width: 120px;
+	margin-bottom: 10px;
 }
 
 .checked {
-	background-color: red;
+	background-color: #E83F31;
 	color: white;
-}
-
-.row-2 .square {
-	height: 120px;
-}
-
-.row-3 .square {
-	margin-bottom: 7px;
 }
 
 h3 {
