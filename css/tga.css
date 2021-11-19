@@ -10,7 +10,7 @@ body {
 
 .bingo-background {
 	/*background-image: url("images/TGA_Bingo.png");*/
-	background-image: url("images/E3-Bingo-Background.png");
+	background-image: url("../images/E3-Bingo-Background.png");
 	background-repeat: no-repeat;
 	width: 640px;
 	padding-top: 252px;
