@@ -23,7 +23,7 @@ function initAll() {
 
 // Creates a new card
 function newCard() {
-	for (var i = 0; i < 24; i++) {
+	for (var i = 1; i < 25; i++) {
 		setSquare(i);
 	}
 }
@@ -31,9 +31,8 @@ function newCard() {
 // Loads a card from browser cookies
 function loadCard() {
 	finalItems = JSON.parse(decodeURIComponent(Cookies.get('card')));
-	for (var i = 0; i < 24; i++) {
-		var currentSquare = "square" + i;
-		document.getElementById(currentSquare).innerHTML = finalItems[i];
+	for (i = 1; i < 25; i++) {
+		document.querySelector(`.square:nth-of-type(${i})`).innerHTML = finalItems[i];
 	}
 }
 
@@ -43,8 +42,7 @@ function getNewItem() {
 }
 
 // Set the square as one of the unused items
-function setSquare(thisSquare) {
-	var currentSquare = "square" + thisSquare;
+function setSquare(i) {
 	var newItem = getNewItem();
 	
 	// While the item selected has already been used, randomly select a new item
@@ -58,7 +56,7 @@ function setSquare(thisSquare) {
 	finalItems.push(newItem);
 	
 	// Put the item's text in the square
-	document.getElementById(currentSquare).innerHTML = newItem;
+	document.querySelector(`.square:nth-of-type(${i})`).innerHTML = newItem;
 }
 
 // Saves the card to browser cookies.
@@ -71,7 +69,7 @@ function saveCard() {
 function ch() {
 	this.classList.toggle("checked");
 }
-var items = document.querySelectorAll('div.checkable');
+var items = document.querySelectorAll('div.square');
 for (var i = items.length - 1; i >= 0; i--) {
 	items[i].onclick = ch;
 }

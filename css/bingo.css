@@ -16,26 +16,28 @@
     align-items: center;
     justify-content: center;
     background-color: var(--clr-neutral-900);
+    max-width: 900px;
 }
 
 .grid {
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 80%;
-    margin-bottom: 10%;
+    flex-basis: 90%;
+    margin-bottom: 5%;
+    flex-direction: row;
 }
 
 .square, .free-space {
     display: flex;
     flex-direction: column;
-    flex-basis: calc((100% * (1/5)) - 10px);
+    flex-basis: calc((100% * (1/5)) - 4px);
+    max-width: calc((100% * (1/5)) - 4px);
+    margin: 2px;
     aspect-ratio: 1;
-    margin: 5px;
     text-align: center;
     align-items: center;
     justify-content: center;
     background-color: var(--clr-neutral-100);
-    max-width: calc((100% * (1/5)) - 10px);
     box-shadow: inset 0.15em 0.15em 0.2em 0 rgba(255,255,255,0.5), 
                 inset -0.15em -0.15em 0.2em 0 rgba(0,0,0,0.5);
 }
@@ -45,10 +47,13 @@
     flex-direction: column;
     flex-basis: 100%;
     max-width: 100%;
-    padding: 5rem;
+    padding: 10%;
 }
 
-
+.checked {
+	background-color: #E83F31;
+	color: white;
+}
 
 body {
     margin: 0;
@@ -56,4 +61,38 @@ body {
     align-items: center;
     justify-content: center;
     background-color: var(--clr-neutral-800);
+}
+
+@media (max-width: 600px) {
+    .bingo-card {
+        width: 100%;
+    }
+
+    .grid {
+        flex-basis: 90%;
+        margin-bottom: 5%;
+    }
+
+    .square, .free-space {
+        flex-basis: calc((100% * (1/5)) - 3px);
+        max-width: calc((100% * (1/5)) - 3px);
+        margin: 1.5px;
+    }
+
+    .banner {
+        padding: 10vw;
+    }
+}
+
+@media (max-width: 400px) {
+    .grid {
+        flex-basis: 97.5%;
+        margin-bottom: 1.25%;
+    }
+
+    .square, .free-space {
+        flex-basis: calc((100% * (1/5)) - 2px);
+        max-width: calc((100% * (1/5)) - 2px);
+        margin: 1px;
+    }
 }
