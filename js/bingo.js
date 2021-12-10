@@ -2,7 +2,7 @@
 window.onload = initAll;
 var usedItems = new Array(76);
 var finalItems = new Array(0);
-const item = ["Celebrity Appearance", "Fake/Bad Gameplay", "Fictional character makes an appearance", "\"World Premiere\" said more then 10 times", "In-engine footage", "Old game brought back with a seemingly bad gimmick ", "Popular series getting a mobile game", "Battle Royale", "BOTW 2, Bayonetta 3, or Metroid Prime 4", "Elden Ring", "Another GTA V update", "Game we know it's gonna be there should be the free space", "New Super Nintendo Switch Pro XL Deluxe annoucement", "Announcer apologizing to fans (i.e. lack of major updates)", "New DLC/Expansion for an existing game", "New IP announced early in development and is still 2+ years out", "Technical difficulties", "Ubisoft being Ubisoft", "A dev dropping a F bomb to sound cooler", "Actual Pog news", "Any Bethesda game being an Xbox exclusive", "AVAILABLE NOW", "More than 5 exclusive games", "Unsatisfying End Reveal", "Someone forgets lines / fumbles"];
+const item = ["Cringe", "Technical Issues", "It Takes Two lawsuit gets brought up", "Josef Fares curses", "Silent Hill", "Metal Gear Solid", "Geoff talks about how much he loves Kojima", "Anything but Resident Evil wins GOTY", "Phil Spencer", "Cross over from a media franchise promoting an ad", "OUT NOW", "Virtual award acceptance", "A-list celebrity", "Celeb no one in the call knows", "Silksong", "Coming out in 2023 or later", "Cyberpunk 2077 DLC", "Game that looks really fucking trash", "Remaster / Remake", "Starfield", "Star Citizen", "Half Life", "Bloodborne PC", "YuGiOh", "Awkward Silence"];
 
 // Initialization function
 function initAll() {
@@ -73,3 +73,5 @@ var items = document.querySelectorAll('div.square');
 for (var i = items.length - 1; i >= 0; i--) {
 	items[i].onclick = ch;
 }
+var freespace = document.querySelectorAll('img.free-space');
+freespace.onclick = ch;
