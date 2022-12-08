@@ -2,7 +2,7 @@
 window.onload = initAll;
 var usedItems = new Array(76);
 var finalItems = new Array(0);
-const item = ["Cringe", "Technical Issues", "It Takes Two lawsuit gets brought up", "Josef Fares curses", "Silent Hill", "Metal Gear Solid", "Geoff talks about how much he loves Kojima", "Anything but Resident Evil wins GOTY", "Phil Spencer", "Cross over from a media franchise promoting an ad", "OUT NOW", "Virtual award acceptance", "A-list celebrity", "Celeb no one in the call knows", "Silksong", "Coming out in 2023 or later", "Cyberpunk 2077 DLC", "Game that looks really fucking trash", "Remaster / Remake", "Starfield", "Star Citizen", "Half Life", "Bloodborne PC", "YuGiOh", "Awkward Silence"];
+const item = ["Cringe","BOTW 2 Gameplay","Tekken 8 Release Date" ,"Late to Start","Starfield Gameplay/Hard Release Date","Mascot for Ad","Reggie Speech","Arc System Announcement","Skyrim Anything","Sony Game Revealed for PC","Fallout TV Show Footage","Technical Difficulties","Presenter Misreads Game Title","Sonic Frontiers Winning Any Award","Mother 3","Handshake Gets Ignored","Awkward Pause That Lasts for More Than 4 Seconds","Valve Announcement","Random Celeb Shows Up","Anything Rockstar","Gameplay That Includes Frame Drops","Yakuza News","Josef Fares","Wolf Among Us News","New Nintendo Announcement","Final Fantasy News","Epic Exclusive","Available NOW","To Be Released 2024+","Among Us"];
 
 // Initialization function
 function initAll() {
