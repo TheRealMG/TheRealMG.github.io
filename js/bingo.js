@@ -63,7 +63,7 @@ function newCard() {
 function loadCard() {
   finalItems = JSON.parse(decodeURIComponent(Cookies.get("card")));
   for (i = 1; i < 25; i++) {
-    document.querySelector(`.square:nth-of-type(${i})`).innerHTML =
+    document.querySelector(`.square:nth-of-type(${i + 1})`).innerHTML =
       finalItems[i];
   }
 }
