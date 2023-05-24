@@ -1,5 +1,5 @@
 :root {
-    --clr-primary-400: #E83F31;
+    --clr-primary-400: #004098;
     --clr-neutral-100: #FFFFFF;
     --clr-neutral-800: #0F0F0F;
     --clr-neutral-900: #000000;
@@ -51,7 +51,7 @@
 }
 
 .checked {
-	background-color: #E83F31;
+	background-color: var(--clr-primary-400);
 	color: white;
 }
 
